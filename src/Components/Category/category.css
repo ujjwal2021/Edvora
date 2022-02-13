@@ -1,0 +1,17 @@
+.product-wrapper{
+    margin: 1.5rem 0 2.5rem 0;
+  }
+  .product-wrapper .product-title{
+    font-size: 1.25rem;
+    color: var(---title-color);
+  }
+  .product-wrapper .seperator{
+    margin-top: 0.75rem;
+  }
+  .product-wrapper .product-container{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--container-background);
+    /* display: flex; */
+  }

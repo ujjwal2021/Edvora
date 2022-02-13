@@ -1,0 +1,56 @@
+.filter-container{
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: var(--container-background);
+    border-radius: 1rem;
+    height: max-content;
+  }
+  .filter-container .seperator{
+    margin-top: 0.3rem;
+  
+  }
+  .filter-container .filter-title{
+    font-size: 1.5rem;
+    color: #A5A5A5;
+  }
+  .filter-container .filter-options{
+    padding-top: 2rem;
+  }
+  .filter-options .option-container .inner-wrap{
+    padding: 0.5rem;
+    background-color: #232323;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    margin-bottom: 0.75rem;
+    position: relative;
+  }
+  .option-container .icon{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  .option-container .icon:hover{
+    transform: scale(1.2);
+  }
+  .option-container .inner-menu{
+    list-style: none;
+    margin-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    display: none;
+  }
+  .inner-menu.active{
+    display: block;
+  }
+  .inner-menu li{
+    color: #FFFFFF;
+    background-color: #232323;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    position: relative;
+  }
+  .inner-menu li.active{
+    background-color: rgb(0, 66, 92);
+  }
